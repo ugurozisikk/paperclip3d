@@ -1,0 +1,15 @@
+Paperclip 3D Ofis — local community integration, version 1.6.2
+
+This is an independent integration, not an official Paperclip or Atlassian product.
+The scene incorporates The Roving Office by Atlassian, released under Apache-2.0.
+Original upstream notices accompany the scene at dist/ui/roving/NOTICE.
+Upstream revision: f3c51c85d04c13ae32a4b929c7488847980c3851.
+
+Modifications: company-scoped Paperclip snapshot reader and native UI; custom scene
+entry, task wall, handoff choreography, personal human desk, question queue and full-page answer conversation,
+expanded room, private human office and seated lobby conversations and main-task TV Kanban/ticker, agent prompt inspection
+and explicit dependency desk visits,
+multiple floors and controls; decorative console and plants, panoramic TV; neutral marks
+in place of excluded vendor artwork; bundled scene modules.
+
+Paperclip plugin-sdk/shared, Zod and three.js license texts accompany the package.

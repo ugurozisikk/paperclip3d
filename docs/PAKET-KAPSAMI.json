@@ -1,0 +1,24 @@
+{
+  "assembledOn": "2026-11-16",
+  "paperclipVersion": "2026.1023.0",
+  "officeVersion": "1.6.2",
+  "components": [
+    "paperclip bootstrap and local Codex patch",
+    "3D office source and prebuilt runtime",
+    "React blog frontend",
+    ".NET 10 blog backend",
+    "Playwright QA",
+    "Five agent instruction templates"
+  ],
+  "existingInstallationModified": false,
+  "databaseIncluded": false,
+  "credentialsIncluded": false,
+  "nodeModulesIncluded": false,
+  "verification": {
+    "frontendBuild": "passed",
+    "backendBuild": "passed; 0 warnings, 0 errors",
+    "javascriptSyntax": "passed",
+    "gitIgnoreSourcePathsChecked": 6,
+    "portable3dPackageCheck": "passed"
+  }
+}

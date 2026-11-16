@@ -1,0 +1,27 @@
+{
+  "version": "1.6.2",
+  "verifiedDate": "2026-11-09",
+  "paperclipCompatibilityTested": "2026.1023.0",
+  "sdkVersion": "2026.1023.0",
+  "nodeVersionUsed": "24.11.0",
+  "portableBuild": true,
+  "unitAndSdkTests": {
+    "passed": 15,
+    "failed": 0
+  },
+  "standaloneBrowserPreview": {
+    "passed": true,
+    "demoAgentsSeated": 5,
+    "room": "44x30",
+    "sofas": 2,
+    "seats": 6,
+    "navigationTargetsReachable": 9,
+    "browserErrors": []
+  },
+  "prebuiltRuntimeIncluded": true,
+  "sourceIncluded": true,
+  "companyDataIncluded": false,
+  "credentialsIncluded": false,
+  "excludedBrandArtworkRemoved": true,
+  "notes": "Standalone preview uses example data. Native Paperclip UI integration was exercised on the stated host version; other versions require compatibility checks."
+}

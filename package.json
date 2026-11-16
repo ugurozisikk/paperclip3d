@@ -1,0 +1,18 @@
+{
+  "name": "paperclip-full-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=24.11.0" },
+  "scripts": {
+    "setup": "node scripts/setup.mjs",
+    "paperclip:start": "node paperclip/control.mjs start",
+    "paperclip:stop": "node paperclip/control.mjs stop",
+    "office:install": "node scripts/install-office.mjs",
+    "office:preview": "node paperclip-3d/scripts/preview.mjs",
+    "blog:start": "node blog-demo/control.mjs start",
+    "blog:stop": "node blog-demo/control.mjs stop",
+    "blog:test": "npm --prefix blog-demo/qa test",
+    "verify": "node scripts/verify.mjs"
+  }
+}

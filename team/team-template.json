@@ -1,0 +1,50 @@
+{
+  "description": "Human-readable provisioning template; not a native Paperclip import file.",
+  "agents": [
+    {
+      "key": "manager",
+      "name": "Müdür",
+      "reportsTo": null,
+      "workspaceRelativeToRepository": "blog-demo",
+      "instructions": "team/instructions/manager.md",
+      "adapterType": "codex_local",
+      "engine": "cli"
+    },
+    {
+      "key": "product-owner",
+      "name": "Product Owner",
+      "reportsTo": "manager",
+      "workspaceRelativeToRepository": "blog-demo",
+      "instructions": "team/instructions/product-owner.md",
+      "adapterType": "codex_local",
+      "engine": "cli"
+    },
+    {
+      "key": "backend",
+      "name": "Backend Developer",
+      "reportsTo": "product-owner",
+      "workspaceRelativeToRepository": "blog-demo/backend",
+      "instructions": "team/instructions/backend.md",
+      "adapterType": "codex_local",
+      "engine": "cli"
+    },
+    {
+      "key": "frontend",
+      "name": "Frontend Developer",
+      "reportsTo": "product-owner",
+      "workspaceRelativeToRepository": "blog-demo/frontend",
+      "instructions": "team/instructions/frontend.md",
+      "adapterType": "codex_local",
+      "engine": "cli"
+    },
+    {
+      "key": "qa",
+      "name": "QA Developer",
+      "reportsTo": "product-owner",
+      "workspaceRelativeToRepository": "blog-demo/qa",
+      "instructions": "team/instructions/qa.md",
+      "adapterType": "codex_local",
+      "engine": "cli"
+    }
+  ]
+}

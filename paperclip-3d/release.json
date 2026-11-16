@@ -1,0 +1,56 @@
+{
+  "name": "Paperclip 3D Ofis",
+  "version": "1.6.2",
+  "pluginKey": "local.office3d",
+  "testedPaperclipVersion": "2026.1023.0",
+  "node": ">=24.11.0",
+  "upstream": {
+    "repository": "https://github.com/atlassian-labs/roving-office",
+    "revision": "f3c51c85d04c13ae32a4b929c7488847980c3851",
+    "license": "Apache-2.0"
+  },
+  "companyScoped": true,
+  "modelCalls": false,
+  "externalTelemetry": false,
+  "permissions": [
+    "companies.read",
+    "agents.read",
+    "issues.read",
+    "issue.interactions.read",
+    "issue.relations.read",
+    "ui.page.register",
+    "ui.sidebar.register"
+  ],
+  "humanQueueEnabled": true,
+  "features": [
+    "Company-scoped 3D office",
+    "Live task board",
+    "Game-only full-page office",
+    "FIFO human question queue",
+    "Numbered question bubbles",
+    "Full-page question conversation and native user answers",
+    "Conversation gestures and rotating speaker",
+    "In-room TV with live main-task status and scrolling ticker",
+    "Wall-wide high-resolution TV",
+    "Full-page readable live TV view on click",
+    "High resolution antialiased scene",
+    "Live company Kanban on wall TV and expanded broadcast",
+    "Agent click opens real run status and prompt history",
+    "Blocked agents wait across the blocker desk using actual task dependencies",
+    "Expanded 44x30 office with separated workstations",
+    "Private human office with glass partition and navigable doorway",
+    "Idle agents sit on two opposing three-seat lobby sofas with a coffee table",
+    "Removed the east-side foreground building obstructing the office",
+    "Decorative console, ceramics, sculpture and plants along the open office edge",
+    "27.2-unit panoramic task TV with a 4096-pixel-wide Kanban texture"
+  ],
+  "nativeBoardActions": [
+    "Read issue conversation on question open",
+    "Submit question answer only on user click",
+    "Read selected agent run prompts and output only while inspector is open"
+  ],
+  "sourceIncluded": true,
+  "prebuiltIncluded": true,
+  "sdkVersion": "2026.1023.0",
+  "portableBuild": true
+}
